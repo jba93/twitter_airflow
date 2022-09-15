@@ -1,0 +1,74 @@
+[2022-09-14T19:01:33.473-0300] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context manual__2022-09-14T21:58:09.961868+00:00 [queued]>
+[2022-09-14T19:01:33.490-0300] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context manual__2022-09-14T21:58:09.961868+00:00 [queued]>
+[2022-09-14T19:01:33.491-0300] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-14T19:01:33.491-0300] {taskinstance.py:1369} INFO - Starting attempt 2 of 2
+[2022-09-14T19:01:33.491-0300] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-14T19:01:33.515-0300] {taskinstance.py:1389} INFO - Executing <Task(_PythonDecoratedOperator): print_the_context> on 2022-09-14 21:58:09.961868+00:00
+[2022-09-14T19:01:33.517-0300] {standard_task_runner.py:52} INFO - Started process 11136 to run task
+[2022-09-14T19:01:33.526-0300] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'example_python_operator', 'print_the_context', 'manual__2022-09-14T21:58:09.961868+00:00', '--job-id', '10', '--raw', '--subdir', '/home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py', '--cfg-path', '/tmp/tmp76f_s3vn', '--error-file', '/tmp/tmp5kdtofij']
+[2022-09-14T19:01:33.526-0300] {standard_task_runner.py:80} INFO - Job 10: Subtask print_the_context
+[2022-09-14T19:01:33.670-0300] {task_command.py:371} INFO - Running <TaskInstance: example_python_operator.print_the_context manual__2022-09-14T21:58:09.961868+00:00 [running]> on host juliana-VirtualBox
+[2022-09-14T19:01:33.715-0300] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_python_operator
+AIRFLOW_CTX_TASK_ID=print_the_context
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-14T21:58:09.961868+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-14T21:58:09.961868+00:00
+[2022-09-14T19:01:33.721-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-09-14T19:01:33.722-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+[2022-09-14T19:01:33.723-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+[2022-09-14T19:01:33.723-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2022-09-14T19:01:33.724-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.725-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.725-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.726-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+[2022-09-14T19:01:33.728-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.728-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.729-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.729-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/utils/context.py:290 AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-09-14T19:01:33.730-0300] {logging_mixin.py:115} INFO - {'conf': <airflow.configuration.AirflowConfigParser object at 0x7f3a582781c0>,
+ 'conn': None,
+ 'dag': <DAG: example_python_operator>,
+ 'dag_run': <DagRun example_python_operator @ 2022-09-14 21:58:09.961868+00:00: manual__2022-09-14T21:58:09.961868+00:00, state:running, queued_at: 2022-09-14 22:01:30.349395+00:00. externally triggered: True>,
+ 'data_interval_end': DateTime(2022, 9, 14, 21, 58, 9, 961868, tzinfo=Timezone('UTC')),
+ 'data_interval_start': DateTime(2022, 9, 14, 21, 58, 9, 961868, tzinfo=Timezone('UTC')),
+ 'ds_nodash': '20220914',
+ 'execution_date': <Proxy at 0x7f3a56030780 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'execution_date', DateTime(2022, 9, 14, 21, 58, 9, 961868, tzinfo=Timezone('UTC')))>,
+ 'inlets': [],
+ 'logical_date': DateTime(2022, 9, 14, 21, 58, 9, 961868, tzinfo=Timezone('UTC')),
+ 'macros': <module 'airflow.macros' from '/home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/macros/__init__.py'>,
+ 'next_ds': <Proxy at 0x7f3a55fbdb00 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'next_ds', '2022-09-14')>,
+ 'next_ds_nodash': <Proxy at 0x7f3a55fbda80 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'next_ds_nodash', '20220914')>,
+ 'next_execution_date': <Proxy at 0x7f3a55fbdc40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'next_execution_date', DateTime(2022, 9, 14, 21, 58, 9, 961868, tzinfo=Timezone('UTC')))>,
+ 'outlets': [],
+ 'params': {},
+ 'prev_data_interval_end_success': None,
+ 'prev_data_interval_start_success': None,
+ 'prev_ds': <Proxy at 0x7f3a55fbdd80 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'prev_ds', '2022-09-14')>,
+ 'prev_ds_nodash': <Proxy at 0x7f3a55fbddc0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'prev_ds_nodash', '20220914')>,
+ 'prev_execution_date': <Proxy at 0x7f3a55fbde00 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'prev_execution_date', DateTime(2022, 9, 14, 21, 58, 9, 961868, tzinfo=Timezone('UTC')))>,
+ 'prev_execution_date_success': <Proxy at 0x7f3a55fbde40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'prev_execution_date_success', None)>,
+ 'prev_start_date_success': None,
+ 'run_id': 'manual__2022-09-14T21:58:09.961868+00:00',
+ 'task': <Task(_PythonDecoratedOperator): print_the_context>,
+ 'task_instance': <TaskInstance: example_python_operator.print_the_context manual__2022-09-14T21:58:09.961868+00:00 [running]>,
+ 'task_instance_key_str': 'example_python_operator__print_the_context__20220914',
+ 'templates_dict': None,
+ 'test_mode': False,
+ 'ti': <TaskInstance: example_python_operator.print_the_context manual__2022-09-14T21:58:09.961868+00:00 [running]>,
+ 'tomorrow_ds': <Proxy at 0x7f3a55fbde80 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'tomorrow_ds', '2022-09-15')>,
+ 'tomorrow_ds_nodash': <Proxy at 0x7f3a55fbdec0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'tomorrow_ds_nodash', '20220915')>,
+ 'ts': '2022-09-14T21:58:09.961868+00:00',
+ 'ts_nodash': '20220914T215809',
+ 'ts_nodash_with_tz': '20220914T215809.961868+0000',
+ 'var': {'json': None, 'value': None},
+ 'yesterday_ds': <Proxy at 0x7f3a55fbdf00 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'yesterday_ds', '2022-09-13')>,
+ 'yesterday_ds_nodash': <Proxy at 0x7f3a55fbdf40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f3a56043dc0>, 'yesterday_ds_nodash', '20220913')>}
+[2022-09-14T19:01:33.730-0300] {logging_mixin.py:115} INFO - 2022-09-14
+[2022-09-14T19:01:33.730-0300] {python.py:173} INFO - Done. Returned value was: Whatever you return gets printed in the logs
+[2022-09-14T19:01:33.745-0300] {taskinstance.py:1407} INFO - Marking task as SUCCESS. dag_id=example_python_operator, task_id=print_the_context, execution_date=20220914T215809, start_date=20220914T220133, end_date=20220914T220133
+[2022-09-14T19:01:33.775-0300] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-14T19:01:33.816-0300] {local_task_job.py:279} INFO - 5 downstream tasks scheduled from follow-on schedule check
