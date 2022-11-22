@@ -1,0 +1,132 @@
+[2022-11-18T16:15:53.086-0300] {processor.py:153} INFO - Started process (PID=4573) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:15:53.151-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:15:53.197-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:15:53.153-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:15:53.609-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:15:55.462-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:16:11.230-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:16:11.172-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:16:11.633-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:16:11.568-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:16:23.273-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 30.366 seconds
+[2022-11-18T16:35:06.770-0300] {processor.py:153} INFO - Started process (PID=4824) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:35:06.783-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:35:06.785-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:06.784-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:35:06.940-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:35:08.244-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:35:12.461-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:12.295-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:35:16.498-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:16.446-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:35:21.292-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 14.546 seconds
+[2022-11-18T16:44:13.162-0300] {processor.py:153} INFO - Started process (PID=5012) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:44:13.173-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:44:13.174-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:44:13.174-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:44:13.234-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:44:13.628-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:44:34.705-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:44:33.594-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:44:38.460-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:44:38.024-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:44:49.118-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 35.976 seconds
+[2022-11-18T16:56:53.082-0300] {processor.py:153} INFO - Started process (PID=2252) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:56:53.085-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:56:53.086-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:53.086-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:56:53.100-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:56:53.153-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:56:53.322-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:53.321-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:56:53.360-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:53.360-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:56:53.388-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.317 seconds
+[2022-11-18T16:57:29.747-0300] {processor.py:153} INFO - Started process (PID=2326) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:57:29.754-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:57:29.755-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:29.755-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:57:29.762-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:57:29.798-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:57:29.859-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:29.859-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:57:29.872-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:29.871-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:57:29.891-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.149 seconds
+[2022-11-18T16:58:05.894-0300] {processor.py:153} INFO - Started process (PID=2680) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:58:05.901-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:58:05.902-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:05.902-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:58:05.915-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:58:05.944-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:58:06.001-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:06.001-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:58:06.014-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:06.014-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:58:06.030-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.141 seconds
+[2022-11-18T16:58:39.698-0300] {processor.py:153} INFO - Started process (PID=2911) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:58:39.699-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:58:39.700-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:39.700-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:58:39.708-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:58:39.744-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:58:39.815-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:39.815-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:58:39.829-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:39.829-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:58:39.849-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.157 seconds
+[2022-11-18T16:59:13.859-0300] {processor.py:153} INFO - Started process (PID=3107) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:59:13.868-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:59:13.869-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:13.869-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:59:13.877-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:59:13.901-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:59:13.964-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:13.963-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:59:13.993-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:13.993-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:59:14.015-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.159 seconds
+[2022-11-18T16:59:49.712-0300] {processor.py:153} INFO - Started process (PID=3327) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:59:49.714-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T16:59:49.715-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:49.715-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:59:49.722-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T16:59:49.746-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:59:49.802-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:49.802-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T16:59:49.815-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:49.815-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T16:59:49.835-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.128 seconds
+[2022-11-18T17:00:25.349-0300] {processor.py:153} INFO - Started process (PID=3518) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T17:00:25.350-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T17:00:25.351-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:25.351-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T17:00:25.360-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T17:00:25.385-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T17:00:25.454-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:25.454-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T17:00:25.470-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:25.470-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T17:00:25.499-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.159 seconds
+[2022-11-18T17:01:01.181-0300] {processor.py:153} INFO - Started process (PID=3782) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T17:01:01.202-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-11-18T17:01:01.203-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:01:01.202-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T17:01:01.223-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-11-18T17:01:01.291-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T17:01:01.592-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:01:01.591-0300] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-11-18T17:01:01.645-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:01:01.644-0300] {dag.py:2977} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-11-18T17:01:01.679-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.533 seconds

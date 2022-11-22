@@ -1,0 +1,135 @@
+[2022-11-18T16:16:37.709-0300] {processor.py:153} INFO - Started process (PID=4577) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:16:37.717-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:16:37.718-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:16:37.718-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:16:37.974-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:16:39.962-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:17:05.278-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:17:05.201-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:17:05.855-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:17:05.828-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:17:05.863-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:17:05.862-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:17:06.168-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 28.515 seconds
+[2022-11-18T16:35:28.004-0300] {processor.py:153} INFO - Started process (PID=4836) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:35:28.016-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:35:28.018-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:28.017-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:35:28.086-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:35:28.624-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:35:33.048-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:32.614-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:35:38.268-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:37.681-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:35:38.444-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:35:38.439-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:35:47.305-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 19.312 seconds
+[2022-11-18T16:45:04.729-0300] {processor.py:153} INFO - Started process (PID=5022) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:45:04.747-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:45:04.751-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:45:04.751-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:45:04.933-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:45:09.828-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:56:56.330-0300] {processor.py:153} INFO - Started process (PID=2286) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:56:56.348-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:56:56.348-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:56.348-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:56:56.355-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:56:56.431-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:56:56.604-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:56.604-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:56:56.634-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:56.634-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:56:56.635-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:56:56.634-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:56:56.707-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.383 seconds
+[2022-11-18T16:57:32.153-0300] {processor.py:153} INFO - Started process (PID=2334) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:57:32.154-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:57:32.154-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:32.154-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:57:32.159-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:57:32.198-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:57:32.302-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:32.302-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:57:32.327-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:32.327-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:57:32.328-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:57:32.328-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:57:32.356-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.213 seconds
+[2022-11-18T16:58:07.543-0300] {processor.py:153} INFO - Started process (PID=2682) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:58:07.545-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:58:07.547-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:07.546-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:58:07.555-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:58:07.590-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:58:07.645-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:07.645-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:58:07.659-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:07.659-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:58:07.659-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:07.659-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:58:07.673-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.136 seconds
+[2022-11-18T16:58:41.605-0300] {processor.py:153} INFO - Started process (PID=2915) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:58:41.606-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:58:41.607-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:41.607-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:58:41.613-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:58:41.642-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:58:41.698-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:41.698-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:58:41.711-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:41.711-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:58:41.712-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:58:41.712-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:58:41.732-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.131 seconds
+[2022-11-18T16:59:16.268-0300] {processor.py:153} INFO - Started process (PID=3135) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:59:16.269-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:59:16.270-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:16.270-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:59:16.277-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:59:16.309-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:59:16.371-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:16.371-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:59:16.385-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:16.384-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:59:16.385-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:16.385-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:59:16.400-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.138 seconds
+[2022-11-18T16:59:51.356-0300] {processor.py:153} INFO - Started process (PID=3355) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:59:51.358-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T16:59:51.359-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:51.358-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:59:51.368-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T16:59:51.400-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T16:59:51.456-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:51.455-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T16:59:51.469-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:51.469-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T16:59:51.469-0300] {logging_mixin.py:115} INFO - [2022-11-18T16:59:51.469-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T16:59:51.488-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.142 seconds
+[2022-11-18T17:00:26.568-0300] {processor.py:153} INFO - Started process (PID=3520) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T17:00:26.574-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T17:00:26.575-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:26.575-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T17:00:26.584-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T17:00:26.622-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-11-18T17:00:26.686-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:26.686-0300] {dag.py:2429} INFO - Sync 2 DAGs
+[2022-11-18T17:00:26.700-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:26.700-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-11-18T17:00:26.700-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:00:26.700-0300] {dag.py:2977} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-11-18T17:00:26.721-0300] {processor.py:161} INFO - Processing /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.161 seconds
+[2022-11-18T17:01:04.078-0300] {processor.py:153} INFO - Started process (PID=3795) to work on /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T17:01:04.086-0300] {processor.py:640} INFO - Processing file /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-11-18T17:01:04.087-0300] {logging_mixin.py:115} INFO - [2022-11-18T17:01:04.086-0300] {dagbag.py:508} INFO - Filling up the DagBag from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T17:01:04.129-0300] {processor.py:650} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-11-18T17:01:05.274-0300] {logging_mixin.py:115} WARNING - /home/juliana/Área de Trabalho/datapipeline/.env/lib/python3.8/site-packages/airflow/plugins_manager.py:256 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the `default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
