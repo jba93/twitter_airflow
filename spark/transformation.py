@@ -7,5 +7,7 @@ if __name__ == "__main__":
         .getOrCreate()
 
     df = spark.read.json(
-        "/home/juliana/Área de Trabalho/datapipeline/airflow/datalake/twitter_aluraonline/extract_date=2022-11-17/AluraOnline_20221117.json"
+        "/home/juliana/Documentos/datapipeline/airflow/datalake/twitter_aluraonline/extract_date=2022-11-17/AluraOnline_20221117.json"
     )
+    df.printSchema()
+    df.show()
